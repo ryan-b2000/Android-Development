@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Software Device</string>
+    <string name="label_motor">Motor Output</string>
+    <string name="label_dac">DAC</string>
+    <string name="label_adc1">ADC1</string>
+    <string name="label_adc2">ADC2</string>
+    <string name="label_adc3">ADC3</string>
+    <string name="label_temp">Temp: </string>
+    <string name="label_degree">&#176; C</string>
+    <string name="label_red">R</string>
+    <string name="label_green">G</string>
+    <string name="label_blue">B</string>
+    <string name="label_ledcontrol">LED Control</string>
+    <string name="button_minus">-</string>
+    <string name="button_plus">+</string>
+    <string name="error_inc_dac">Error. Max reached.</string>
+    <string name="error_dec_dac">Error. Min reached.</string>
+</resources>

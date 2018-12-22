@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="label_red">R</string>
+    <string name="label_green">G</string>
+    <string name="label_blue">B</string>
+    <string name="label_ledcontrol">Color Control</string>
+    <string name="label_colors">Color Choices</string>
+    <string name="label_show">Light Show</string>
+    <string name="button_record_show">Record Show Data</string>
+    <string name="button_accept">ACCEPT CHANGES</string>
+    <string name="button_clear">CLEAR VALUES</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

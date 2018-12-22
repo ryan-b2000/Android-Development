@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="welcome">Welcome To Quiz App!</string>
+    <string name="text_start_quiz">Start Quiz!</string>
+    <string name="button1">button 1</string>
+    <string name="button2">button 2</string>
+    <string name="button3">button 3</string>
+    <string name="button4">button 4</string>
+    <string name="cheat_button">You gonna cheat?</string>
+    <string name="answer_button">Final Answer</string>
+    <string name="cheat_warning">Are you sure you want to cheat?</string>
+    <string name="your_score">Your score is:</string>
+    <string name="the_user_score">score</string>
+    <string name="text_enter_name">Please enter your name</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="text_high_score">High Score</string>
+    <string name="finish_button_text">Finish</string>
+    <string name="toast_correct">Good Job!</string>
+    <string name="toast_incorrect"> Incorrect</string>
+    <string name="toast_invalid_choice">Please make a choice.</string>
+    <string name="toast_cheat_correct">Cheater :(</string>
+    <string name="PREFS_HIGH_SCORE">ryan.quiz.prefs.high.score</string>
+    <string name="KEY_HIGH_SCORE_QUIZ1">ryan.quiz1.key.high.score</string>
+    <string name="KEY_HIGH_NAME_QUIZ1">ryan.quiz1.key.high.name</string>
+    <string name="KEY_HIGH_SCORE_QUIZ2">ryan.quiz2.key.high.score</string>
+    <string name="KEY_HIGH_NAME_QUIZ2">ryan.quiz2.key.high.name</string>
+    <string name="EXTRA_USER_SCORE">ryan.quiz.activity.user_score</string>
+    <string name="EXTRA_USER_CHEAT">ryan.quiz.activity.user_cheat</string>
+    <string name="EXTRA_QUIZ_NAME">ryan.main.activity.quiz_name</string>
+    <string name="EXTRA_QUESTION_COUNT">ryan.quiz.activity.question_count</string>
+    <string name="text_num_correct">Number correct:</string>
+    <string name="text_num_wrong">Number wrong:</string>
+    <string name="text_num_cheated">Number cheated:</string>
+    <string name="file_quiz_1">quiz1.json</string>
+    <string name="file_quiz_2">quiz2.json</string>
+    <string-array name="quiz_choices">Select a quiz
+        <item>Choose A Quiz</item>
+        <item>Quiz 1</item>
+        <item>Quiz 2</item>
+
+    </string-array>
+</resources>

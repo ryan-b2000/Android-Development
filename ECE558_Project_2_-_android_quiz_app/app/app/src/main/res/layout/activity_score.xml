@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+    <!--- Text for number correct -->
+    <TextView
+        android:id="@+id/text_correct"
+        android:text="@string/text_num_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!--- Text for number wrong -->
+    <TextView
+        android:id="@+id/text_wrong"
+        android:text="@string/text_num_wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/text_correct"
+        app:layout_constraintLeft_toLeftOf="@+id/text_correct"
+        />
+
+    <!--- Text for number cheated -->
+    <TextView
+        android:id="@+id/text_cheated"
+        android:text="@string/text_num_cheated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/text_wrong"
+        app:layout_constraintLeft_toLeftOf="@+id/text_wrong"
+        />
+
+    <!--- Text for user score -->
+    <TextView
+        android:id="@+id/text_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_score"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/text_cheated"
+        app:layout_constraintLeft_toLeftOf="@id/text_cheated"
+        />
+
+    <!--- Number correct -->
+    <TextView
+        android:id="@+id/num_correct"
+        android:hint="correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!--- Number wrong -->
+    <TextView
+        android:id="@+id/num_wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="wrong"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/num_correct"
+        app:layout_constraintLeft_toLeftOf="@id/num_correct"
+        />
+
+    <!--- Number cheated -->
+    <TextView
+        android:id="@+id/num_cheated"
+        android:hint="cheated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/num_wrong"
+        app:layout_constraintLeft_toLeftOf="@id/num_correct"
+        />
+
+    <!--- Number for user score -->
+    <TextView
+        android:id="@+id/user_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:hint="score"
+        app:layout_constraintTop_toBottomOf="@id/num_cheated"
+        app:layout_constraintLeft_toLeftOf="@id/num_correct"
+        />
+
+
+    <!--- Enter your name text -->
+    <TextView
+        android:id="@+id/enter_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_enter_name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <!--- Box to enter name -->
+    <EditText
+        android:id="@+id/name_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter name here"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!--- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:text="@string/submit_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+</android.support.constraint.ConstraintLayout>

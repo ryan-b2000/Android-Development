@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--- This is the layout for each entry in the recycler view -->
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:clickable="true"
+    android:padding="8dp">
+
+    <!--- Text for the word that will go into the recycler view entry -->
+    <TextView
+        android:id="@+id/word_title"
+        android:hint="WORD"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

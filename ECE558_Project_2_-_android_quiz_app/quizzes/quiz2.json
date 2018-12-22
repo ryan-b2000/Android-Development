@@ -1,0 +1,89 @@
+{
+	"quiz": {
+		"id": 3,
+		"title": "Trivia 1",
+		"wraparound": false,
+		"quizitems": [{
+			"id": 1,
+			"questiontext": "During a Nazi rally in Charlottesville, which President said there were 'good people on both sides'?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+			"Donald Trump",
+			"George W Bush",
+			"Jimmy Carter"]
+		},
+		{
+			"id": 2,
+			"questiontext": "Which president colluded with the Russian government to steal the 2016 presidential election?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 3,
+			"questiontext": "Which president proudly claimed about women that he could \"grab em by the pussy\" because he was a star?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 4,
+			"questiontext": "Who is the only president to never release his tax returns and thus hide the many conflicts of interest he has?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 5,
+			"questiontext": "Which president routinely holds rallys where he encourages his supports to act violently towards members of the media?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 6,
+			"questiontext": "Which president claimed of ruthless North Korean dictator Kim Jong-un that they fell in love after writing letters to each other?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 7,
+			"questiontext": "Which president committed election fraud by paying $130,000 to a porn star to keep an affair quiet days before the election?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 8,
+			"questiontext": "Which president believes Vladimir Putin over all US intelligence agencies about Russias role in the 2016 election?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		},
+		{
+			"id": 9,
+			"questiontext": "Who is the most corrupt and dishonest president in the history of The United States?",
+			"answertext": "Donald Trump",
+			"choices":["Barack Obama",
+				"Donald Trump",
+				"George W Bush",
+				"Jimmy Carter"]
+		}]
+	}
+	
+}

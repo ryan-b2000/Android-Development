@@ -1,0 +1,82 @@
+{
+	"quiz": {
+		"id": 3,
+		"title": "Trivia 1",
+		"wraparound": false,
+		"quizitems": [{
+			"id": 1,
+			"questiontext": "Who invented the telephone?",
+			"answertext": "Alexander Graham Bell",
+			"choices": ["Thomas Edison",
+				"Nikola Tesla",
+				"Dwayne 'The Rock' Johnson",
+				"Alexander Graham Bell"]
+		},
+			{
+				"id": 2,
+				"questiontext": "Which nail grows fastest?",
+				"answertext": "Middle",
+				"choices": ["Middle",
+					"Thumb",
+					"Pinky",
+					"Ring"]
+			},
+			{
+				"id": 3,
+				"questiontext": "What Spanish artist said he would eat his wife when she died?",
+				"answertext": "Salvador Dali",
+				"choices": ["Joan Miro",
+					"Pablo Picasso",
+					"Salvador Dali",
+					"Francisco Goya"]
+			},
+			{
+				"id": 4,
+				"questiontext": "What did the crocodile swallow in Peter Pan?",
+				"answertext": "A clock",
+				"choices": ["A Lost Boy",
+					"A clock",
+					"Captain Hook's other hand",
+					"A sleeping potion"]
+			},
+			{
+				"id": 5,
+				"questiontext": "What is the only mammal that can't jump?",
+				"answertext": "Elephant",
+				"choices": ["Panda",
+					"Elephant",
+					"Grey Whale",
+					"Racoon"]
+			},
+			{
+				"id": 6,
+				"questiontext": "What is the literal translation of the word 'tofu'?",
+				"answertext": "Bean curd",
+				"choices": [
+					"I eat plants",
+					"rice extract",
+					"plant life",
+					"Bean curd"]
+			},
+			{
+				"id": 7,
+				"questiontext": "What is the diameter of a basketball hoop?",
+				"answertext": "18 inches",
+				"choices": ["18 inches",
+					"19 inches",
+					"16 inches",
+					"17 inches"]
+			},
+			{
+				"id": 8,
+				"questiontext": "In what year was Howard Hughes born?",
+				"answertext": "1905",
+				"choices": [
+					"1921",
+					"1915",
+					"1912",
+					"1905"]
+			}]
+	}
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="seeker_width">25dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+    <dimen name="dim_bar_height">30dp</dimen>
+    <dimen name="dim_adc_gap">50dp</dimen>
+    <dimen name="seeker_margin">20dp</dimen>
+    <dimen name="color_box_side">60dp</dimen>
+    <dimen name="color_box_sideland">40dp</dimen>
+    <dimen name="box_separation">30dp</dimen>
+    <dimen name="box_separationland">30dp</dimen>
+    <dimen name="top_frag_height">474dp</dimen>
+    <dimen name="bottom_frag_height">200dp</dimen>
+    <dimen name="recycleview_text_size">25dp</dimen>
+    <dimen name="small_box_separation">5dp</dimen>
+    <dimen name="image_button_side">125dp</dimen>
+</resources>

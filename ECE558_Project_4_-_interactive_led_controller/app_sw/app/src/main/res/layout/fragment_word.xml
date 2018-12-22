@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/label_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="WORD"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+       />
+
+
+    <!--- ********************************************* -->
+    <TextView
+        android:id="@+id/label_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_colors"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias=".1"/>
+
+    <View
+        android:id="@+id/color_1"
+        android:layout_width="@dimen/color_box_side"
+        android:layout_height="@dimen/color_box_side"
+        android:background="#FF0AFF"
+        android:visibility="visible"
+        android:focusable="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_color" />
+
+    <View
+        android:id="@+id/color_2"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginLeft="@dimen/box_separation"
+        app:layout_constraintTop_toTopOf="@id/color_1"
+        app:layout_constraintBottom_toBottomOf="@id/color_1"
+        app:layout_constraintLeft_toRightOf="@id/color_1"
+        />
+
+    <View
+        android:id="@+id/color_3"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginLeft="@dimen/box_separation"
+        app:layout_constraintTop_toTopOf="@id/color_1"
+        app:layout_constraintBottom_toBottomOf="@id/color_1"
+        app:layout_constraintLeft_toRightOf="@id/color_2"
+        />
+
+    <View
+        android:id="@+id/color_4"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginLeft="@dimen/box_separation"
+        app:layout_constraintTop_toTopOf="@id/color_1"
+        app:layout_constraintBottom_toBottomOf="@id/color_1"
+        app:layout_constraintLeft_toRightOf="@id/color_3"
+        />
+
+    <View
+        android:id="@+id/color_5"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintTop_toBottomOf="@id/color_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <View
+        android:id="@+id/color_6"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginLeft="@dimen/box_separation"
+        app:layout_constraintTop_toTopOf="@id/color_5"
+        app:layout_constraintBottom_toBottomOf="@id/color_5"
+        app:layout_constraintLeft_toRightOf="@id/color_5"
+        />
+
+    <View
+        android:id="@+id/color_7"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginLeft="@dimen/box_separation"
+        app:layout_constraintTop_toTopOf="@id/color_5"
+        app:layout_constraintBottom_toBottomOf="@id/color_5"
+        app:layout_constraintLeft_toRightOf="@id/color_6"
+        />
+
+    <View
+        android:id="@+id/color_8"
+        android:layout_height="@dimen/color_box_side"
+        android:layout_width="@dimen/color_box_side"
+        android:visibility="visible"
+        android:focusable="true"
+        android:background="#DDDEEE"
+        android:layout_marginLeft="@dimen/box_separation"
+        app:layout_constraintTop_toTopOf="@id/color_5"
+        app:layout_constraintBottom_toBottomOf="@id/color_5"
+        app:layout_constraintLeft_toRightOf="@id/color_7"
+        />
+
+    <!--- ********************************************* -->
+    <!--- Led Control Label -->
+    <TextView
+        android:id="@+id/label_ledcontrol"
+        android:text="@string/label_ledcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/color_5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!--- Red Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_red"
+        app:layout_constraintRight_toLeftOf="@id/seekbar_red"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/seekbar_red"
+        app:layout_constraintTop_toTopOf="@id/seekbar_red"/>
+
+    <!--- Green Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_green"
+        app:layout_constraintRight_toLeftOf="@id/seekbar_green"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/seekbar_green"
+        app:layout_constraintTop_toTopOf="@id/seekbar_green"/>
+
+    <!--- Blue Label-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_blue"
+        app:layout_constraintRight_toLeftOf="@id/seekbar_blue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/seekbar_blue"
+        app:layout_constraintTop_toTopOf="@id/seekbar_blue"/>
+
+    <!--- Red Seekbar -->
+    <SeekBar
+        android:id="@+id/seekbar_red"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/seeker_width"
+        android:layout_marginStart="@dimen/seeker_margin"
+        android:max="255"
+        app:layout_constraintTop_toBottomOf="@id/label_ledcontrol"/>
+
+    <!--- Green Seekbar -->
+    <SeekBar
+        android:id="@+id/seekbar_green"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/seeker_width"
+        android:layout_marginStart="@dimen/seeker_margin"
+        android:max="255"
+        app:layout_constraintTop_toBottomOf="@id/seekbar_red"/>
+
+    <!--- Blue Seekbar -->
+    <SeekBar
+        android:id="@+id/seekbar_blue"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/seeker_width"
+        android:layout_marginStart="@dimen/seeker_margin"
+        android:max="255"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintTop_toBottomOf="@id/seekbar_green"
+        />
+
+    <!--- ********************************************* -->
+    <!--- Light Show -->
+    <TextView
+        android:id="@+id/label_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_show"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/seekbar_blue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/label_show"
+        />
+
+    <Button
+        android:id="@+id/button_record_show"
+        android:text="@string/button_record_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/progress_bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
